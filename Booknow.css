@@ -1,0 +1,68 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.BookNow{
+    background:#101010;
+    padding: 5rem 6rem;
+}
+
+/* step3:component container */
+.BookNowContainer{
+    max-width: 1200px;
+    margin: auto;
+}
+/* step4:row1 */
+.BookNowBody1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* step5:column1 */
+.BookNowBlock1{
+    /* background-color: azure; */
+}
+
+/* step6:subcolumn1 */
+.BookNowBox1 p{
+font-size: 1.5rem;
+color: goldenrod;
+font-family: var(--ffsecondary);
+}
+
+.BookNowBox1 h2{
+    font-size: 4rem;
+    color: white;
+    font-family: var(--ffprimary);
+}
+
+.BookNowBox1 h3{
+    font-size: 1.7rem;
+    color: #ffffff99;
+    font-family: var(--ffsecondary);
+}
+
+.BookNowBox1 h4{
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: var(--ffsecondary);
+    color: #ffffff99;
+}
+.BookNowBox1 h4 i{
+    color: goldenrod;
+    font-size: 2rem;
+    border-radius: 10%;
+}

@@ -1,0 +1,270 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.Cilent {
+    background-color: #0c0E12;
+    padding: 5rem;
+}
+
+/* step3:component container */
+.CilentContainer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* step4:row1 */
+.CilentBody1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* step5:column1 */
+.CilentBlock1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* step6:subcolumn1 */
+.CilentBox1 p {
+    font-size: 1.5rem;
+    font-family: var(--ffsecondary);
+    text-align: center;
+    color: goldenrod;
+}
+
+.CilentBox1 h2 {
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    font-family: var(--ffprimary);
+}
+
+.CilentBox1 h4 {
+    font-size: 2rem;
+    color: #ffffff99;
+    font-family: var(--ffsecondary);
+    text-align: center;
+}
+
+/* step4:row2 */
+.CilentBody2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem 0rem;
+    column-gap: 4rem;
+}
+
+/* step5:column2 */
+.CilentBlock2 {
+    /* background-color: aqua; */
+}
+
+.CilentBox2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #121212;
+    padding: 3rem;
+    margin-left: 3rem;
+
+}
+
+/* step6:subcolumn2 */
+.CilentCardHeader {
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.CilentCardMain p {
+
+    font-family: 'Avenir', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+    padding-top: 2rem;
+}
+
+.CilentCardFooter {
+    /* background-color:#f5f3f0; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.CilentCardFooter i {
+    background-color: #c69f5333;
+    font-size: 3rem;
+    color: goldenrod;
+    border-radius: 50%;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+}
+
+.CilentBox2 i {
+    color: goldenrod;
+
+}
+
+.CilentBox2 h3 {
+    font-size: 2rem;
+    color: white;
+    font-family: var(--ffsecondary);
+}
+
+.CilentBox2 h4 {
+    font-size: 1rem;
+    color: #ffffff99;
+    font-family: var(--ffsecondary);
+}
+
+/* step5:column3 */
+.CilentBlock3 {
+    /* background-color: rgb(158, 180, 180); */
+}
+
+.CilentBox3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #121212;
+    padding: 3rem;
+    margin-left: 3rem;
+
+}
+
+/* step6:subcolumn3 */
+.CilentBox3 p{
+    font-size: 5rem;
+}
+
+.CilentCardHeader {
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.CilentCardMain p {
+    font-family: 'Avenir', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+    padding-top: 2rem;
+}
+
+.CilentCardFooter {
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.CilentBox3 h3 {
+    font-size: 2rem;
+    color: white;
+    font-family: var(--ffsecondary);
+}
+
+.CilentBox3 h4 {
+    font-size: 1rem;
+    color: #ffffff99;
+    font-family: var(--ffsecondary);
+}
+
+.CilentBox3 i {
+    color: goldenrod;
+}
+
+/* step5:column4 */
+.CilentBlock4 {
+    /* background-color: rgb(113, 98, 173); */
+}
+
+.CilentBox4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #121212;
+    padding: 3rem;
+    margin-left: 3rem;
+
+}
+
+/* step6:subcolumn4 */
+.CilentCardHeader {
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.CilentCardMain p {
+    font-family: 'Avenir', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+    padding-top: 2rem;
+}
+
+.CilentCardFooter {
+    /* background-color: aqua; */
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+}
+
+
+
+.CilentBox4 h3 {
+    font-size: 2rem;
+    color: white;
+    font-family: var(--ffsecondary);
+}
+
+.CilentBox4 h4 {
+    font-size: 1rem;
+    color: #ffffff99;
+    font-family: var(--ffsecondary);
+}
+
+.CilentBox4 i {
+    color: goldenrod;
+}

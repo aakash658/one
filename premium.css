@@ -1,0 +1,256 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.premium {
+    background-color: rgb(20, 18, 18);
+}
+
+/* step3:component Container */
+.premiumContainer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* step4:row1 */
+.premiumBody1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* step5:column1 */
+.premiumBlock1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* step6:subcolumn1 */
+.premiumBox1 p {
+    font-size: 2rem;
+    color: goldenrod;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    font-family: var(--ffsecondary);
+}
+
+.premiumBox1 h2 {
+    text-align: center;
+    color: white;
+    font-size: 7rem;
+    font-family: var(--ffprimary);
+    /* padding-bottom: 0rem; */
+}
+
+.premiumBox1 h4 {
+    font-size: 2rem;
+    color: #ffffff99;
+    text-align: center;
+    font-family: var(--ffthree);
+}
+
+/* step4:row2 */
+.premiumBody2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5rem 6rem;
+    row-gap: 4rem;
+    column-gap: 5rem;
+}
+
+/* step5:column2 */
+.premiumBlock2 {
+    /* background-color: aliceblue; */
+}
+
+/* step6:subcolumn2 */
+.premiumBox2 i {
+    font-size: 2rem;
+    color: goldenrod;
+}
+
+.premiumBox2 h3 {
+    font-size: 3rem;
+    color: white;
+    font-family: var(--ffprimary);
+}
+
+.premiumBox2 p {
+    font-size: 1.8rem;
+    color: #ffffff99;
+    font-family: var(--ffthree);
+}
+
+.premiumCardHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    border-radius: 10px;
+    background-color: #121212;
+    padding: 1rem 2rem;
+    row-gap: 2rem;
+}
+
+.premiumCardHeader i{
+    margin: 2rem;
+    /* background-color: aliceblue; */
+    border-radius:10%;
+    width: 15%;
+    padding: 1rem;
+    background-color: #c69F531A;
+}
+
+/* step5:column3 */
+.premiumBlock3 {
+    /* background-color: aliceblue; */
+}
+
+/* step6:subcolumn3 */
+.premiumBox3 i {
+    font-size: 2rem;
+    color: goldenrod;
+}
+
+.premiumBox3 h3 {
+    font-size: 3rem;
+    color: white;
+    font-family: var(--ffprimary);
+}
+
+.premiumBox3 p {
+    font-size: 1.8rem;
+    color: #ffffff99;
+    font-family: var(--ffsecondary);
+}
+
+/* step5:column4 */
+.premiumBlock4 {
+    /* background-color: aliceblue; */
+}
+
+/* step6:subcolumn4 */
+.premiumBox4 i {
+    font-size: 2rem;
+    color: goldenrod;
+}
+
+.premiumBox4 h3 {
+    font-size: 3rem;
+    color: white;
+    font-family: var(--ffprimary);
+}
+
+.premiumBox4 p {
+    font-size: 1.8rem;
+    color: #ffffff99;
+    font-family: var(--ffsecondary);
+}
+
+/* step5:column5 */
+.premiumBlock5 {
+    /* background-color: aliceblue; */
+}
+
+/* step6:subcolumn5 */
+.premiumBox5 i {
+    font-size: 2rem;
+    color: goldenrod;
+}
+
+.premiumBox5 h3 {
+    font-size: 3rem;
+    color: white;
+    font-family: var(--ffprimary);
+}
+
+.premiumBox5 p {
+    font-size: 1.8rem;
+    color: #ffffff99;
+    font-family: var(--ffsecondary);
+}
+
+/* step5:column6 */
+.premiumBlock6 {
+    /* background-color: aliceblue; */
+}
+
+/* step6:subcolumn6 */
+.premiumBox6 i {
+    font-size: 2rem;
+    color: goldenrod;
+}
+
+.premiumBox6 h3 {
+    font-size: 3rem;
+    color: white;
+    font-family: var(--ffprimary);
+}
+
+.premiumBox6 p {
+    font-size: 1.8rem;
+    color: #ffffff99;
+    font-family: var(--ffsecondary);
+}
+
+.premiumCardHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    border-radius: 10px;
+    background-color: #212121;
+   /* padding-bottom: 8rem; */
+   /* margin-bottom: 5rem; */
+}
+
+/* step5:column7 */
+.premiumBlock7 {
+    /* background-color: aliceblue; */
+}
+
+/* step6:subcolumn7 */
+.premiumBox7 i {
+    font-size: 2rem;
+    color: goldenrod;
+}
+
+.premiumBox7 h3 {
+    font-size: 3rem;
+    color: white;
+    font-family: var(--ffprimary);
+}
+
+.premiumBox7 p {
+    font-size: 1.8rem;
+    color: #ffffff99;
+    font-family: var(--ffsecondary);
+}
+
+.premiumCardHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    border-radius: 10px;
+    background-color: #212121;
+    padding: 1rem 2rem;
+    row-gap: 2rem;
+    padding-bottom: 2rem;
+}

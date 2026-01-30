@@ -1,0 +1,142 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.Contact {
+    background-color: #0c0E12;
+    padding-top: 4rem;
+}
+
+/* step3:component container */
+.ContactContainer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* step4:row1 */
+.ContactBody1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 4rem;
+}
+
+/* step5:column1 */
+.ContactBlock1 {
+    /* background-color: rgb(65, 111, 152); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* step6:subcolumn1 */
+.ContactBox1 h3 {
+    font-size: 3rem;
+    color: white;
+    font-family: var(--ffprimary);
+
+}
+
+.ContactBox1 p {
+    font-size: 2rem;
+    color: #ffffff99;
+    font-family: var(--ffsecondary);
+}
+
+/* step5:column2 */
+.ContactBlock2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* step6:subcolumn2 */
+.ContactBox2 h3 {
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--ffsecondary);
+    padding: 2rem;
+
+}
+
+.ContactBox2 ul a {
+    color: #ffffff99;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--ffthree);
+    font-size: 1.5rem;
+}
+
+/* step5:column3 */
+.ContactBlock3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* step6:subcolumn3 */
+.ContactBox3 h3 {
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--ffsecondary);
+    padding: 2rem;
+
+}
+
+.ContactBox3 p {
+    color: #ffffff99;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--ffthree);
+    /* line-height: 1rem; */
+    font-size: 1.5rem;
+}
+
+/* step4:row2 */
+.ContactBody2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 8rem;
+    /* background-color: rgb(255, 255, 255); */
+}
+/* step5:column4 */
+.ContactBlock4{
+    /* background-color: aqua; */
+}
+
+/* step6:subcolumn4 */
+.ContactBox4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ContactBox4 p{
+    color: #ffffff99;
+    font-family: var(--ffsecondary);
+    font-size: 1.5rem;
+}
+.ContactBody2{
+  border-top: 1px solid #ffffff99;
+  padding-top: 3rem;
+  padding-bottom: 7rem;
+}

@@ -1,0 +1,211 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.heroSection {
+    /* background-color: rgb(112, 148, 223); */
+}
+
+/* step3:component container */
+.heroSectionContainer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* step4:row1 */
+.heroSectionBody1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* step5:column1 */
+.heroSectionBlock1 {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+/* step6:subcolumn1 */
+.heroSectionBox1  {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    /* border-radius: 75px; */
+    padding: 4rem;
+    padding-bottom: 4rem;
+}
+
+.heroSectionBox1 h4 {
+    background-color: #FFFFFF0D;
+    border: 1px solid #C69F5333;
+    border-radius:3rem;
+    font-size: 1.7rem;
+    padding: 0.5rem 3rem;
+    margin: 0rem 2rem;
+    color: white;
+
+}
+
+.heroSectionBox1 h4 i {
+    color: goldenrod;
+}
+
+.heroSectionBox1 h1 {
+    font-size: 9rem;
+    font-family: var(--ffprimary);
+    text-align: center;
+    color: white;
+}
+
+.heroSectionBox1 p {
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 2rem;
+    font-family: var(--ffsecondary);
+    color: #fffffF99;
+    text-align: center;
+}
+
+/* step5:column2 */
+.heroSectionBlock2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroSection button {
+    font-size: 2rem;
+    padding: 1.5rem 3rem;
+    font-family: var(--ffsecondary);
+    color: black;
+    background-color: goldenrod;
+    margin-left: 5rem;
+    border-radius: 1rem;
+}
+
+/* step4:row2 */
+.heroSectionBody2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5rem;
+}
+
+/* step5:column3 */
+.heroSectionBlock3 {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+    color: white;
+}
+
+/* step6:subcolumn3 */
+
+
+.heroSectionCardHeader i {
+   color: goldenrod;
+    font-size: 3rem;
+    border-radius: 2rem;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heroSectionBox3 {
+    font-size: 2rem;
+    padding-right: 5rem;
+}
+
+/* step5:column4 */
+.heroSectionBlock4 {
+    /* background-color: rgb(156, 98, 22); */
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+    color: white;
+}
+
+/* step6:subcolumn4 */
+.heroSectionBox4 {
+    font-size: 2rem;
+    padding-right: 5rem;
+}
+
+
+.herosectioncardHeader i {
+    margin: 1.5rem;
+    color: goldenrod;
+}
+
+.herosectioncardHeader p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* step5:column5 */
+.heroSectionBlock5 {
+    /* background-color: rgb(156, 98, 22); */
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+    color: white;
+}
+
+/* step6:subcolumn5 */
+.herosectioncardHeader {
+    border-radius: 10%;
+    font-size: 2rem;
+    background-color: #212121;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+
+}
+
+/* .herosectioncardHeader i {
+    margin: 1.5rem;
+    color: goldenrod;
+} */
+
+.herosectioncardHeader p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* step4:row3 */
+.heroSectionBody3 {
+    /* background-color: blueviolet; */
+}
+
+/* step5:column6 */
+.heroSectionBox6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: white;
+    padding-bottom: 8rem;
+}

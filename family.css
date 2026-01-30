@@ -1,0 +1,130 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.Family {
+    background-color: black;
+    padding: 5rem;
+}
+
+/* step3:component Container */
+.FamilyContainer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* step4:row1 */
+.FamilyBody1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* step5:column1 */
+.FamilyBlock1 {
+    /* background-color: violet; */
+}
+
+/* step6:subcolumn1 */
+.FamilyBox1 {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.FamilyBox1 i {
+    font-size: 5rem;
+    color: #c69f53;
+}
+
+.FamilyBox1 h3 {
+    font-size: 3rem;
+    font-family: var(--ffprimary);
+    color: white;
+}
+
+.FamilyBox1 p {
+    color: #ffffff99;
+    font-family: var(--ffsecondary);
+    font-size: 2rem;
+}
+
+.FamilyCardHader {
+/* background-color:#F5F3F0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #0c0e12;
+    padding: 15rem 8rem ;
+}
+
+/* step5:column2 */
+.FamilyBox2 {
+    /* background-color: aquamarine; */
+    padding: 2rem 5rem;
+
+}
+
+.FamilyBox2 h4 {
+    font-size: 1.5rem;
+    color: #c69f53;
+    font-family: var(--ffsecondary);
+}
+
+.FamilyBox2 h2 {
+    font-size: 3rem;
+    font-family: var(--ffprimary);
+    color: white;
+}
+
+.FamilyBox2 P {
+    padding: 1.5rem;
+    font-size: 2rem;
+    color: #ffffff99;
+    /* text-align: start; */
+    font-family: var(--ffsecondary);
+
+}
+
+.frist p {
+    font-family: var(--ffsecondary);
+    font-size: 2rem;
+    color: white;
+
+}
+
+.second p {
+    font-family: var(--ffsecondary);
+    font-size: 2rem;
+    color: white;
+}
+
+.third p {
+    font-family: var(--ffsecondary);
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 2rem;
+    
+}
+
+.FamilyBox2 button {
+    font-size: 1.7rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #c69f53;
+    font-family: var(--ffthree);
+    padding: 2rem;
+} 

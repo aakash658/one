@@ -1,0 +1,126 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.Gold {
+background-color: #0C0E12;
+    padding: 7rem 5rem;
+}
+
+/* step3:component Container */
+.GoldContainer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* step4:row1 */
+.GoldBody1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* step5:column1 */
+.GoldBox1 {
+    /* background-color: rgb(118, 148, 174); */
+}
+
+.GoldBox1 h3 {
+    font-size: 1.5rem;
+    color: #c69f53;
+    font-family: var(--ffsecondary);
+}
+
+.GoldBox1 h2 {
+    font-size: 4rem;
+    color: white;
+    font-family: var(--ffprimary);
+}
+
+.GoldBox1 p {
+    font-size: 2rem;
+    color: #ffffff99;
+    font-family: var(--ffthree);
+    /* padding-bottom: 4rem; */
+}
+
+.three {
+    display: flex;
+    column-gap: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.ten h4 {
+    font-size: 3rem;
+    color: #c69f53;
+    text-align: center;
+}
+
+.one h4 {
+    font-size: 3rem;
+    color: #c69f53;
+    text-align: center;
+}
+
+.two {
+    font-size: 3rem;
+    color: #c69f53;
+    text-align: center;
+}
+
+/* step5:column2 */
+.GoldBlock2 {
+    /* background-color: rgb(212, 212, 123); */
+}
+
+.GoldBox2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding-top: 8rem;
+    column-gap: 3rem;
+    row-gap: 5rem;
+}
+
+.GoldBox2 h3{
+    font-size: 2rem;
+    color: white;
+}
+
+.GoldBox2 p{
+    font-size: 1rem;
+    color: white;
+}
+
+.GoldCardHeader{
+     display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    border-radius: 10px;
+    background-color: #ffffff0d;
+    padding: 4rem;
+}
+.GoldCardHeader i{
+        margin: 2rem;
+    /* background-color: aliceblue; */
+    color: #c69f53;
+    font-size: 2rem;
+    border-radius:10%;
+    width: 25%;
+    padding: 1rem;
+    background-color: #c69F531A;
+}
