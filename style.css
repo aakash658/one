@@ -195,6 +195,9 @@ header {
 
 
 /* navDiv2 code start here */
+.navDiv2{
+  display: none;
+}
 
 .navDiv2Block2 {
   display: none;
