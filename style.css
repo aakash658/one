@@ -195,9 +195,9 @@ header {
 
 
 /* navDiv2 code start here */
-.navDiv2{
-  /* display: none; */
-}
+/* .navDiv2{
+  display: none;
+} */
 
 .navDiv2Block2 {
   display: none;
@@ -1094,7 +1094,7 @@ span {
   margin-left: 3rem;
 }
 
-CilentCardHeader {
+.CilentCardHeader {
   width: 100%;
   /* background-color: aqua; */
   display: flex;
@@ -1615,7 +1615,7 @@ span {
   }
 .fast button{
   /* margin: 3rem; */
-  padding: 3rem;
+  /* pad/ding: 3rem; */
 }
   
   .slow{
