@@ -17,7 +17,7 @@
 /* Step2: component */
 .Executive {
     background:#121212;
-    padding: 13rem 15rem;
+    padding: 10rem 15rem;
 }
 
 /* step3:component container */
@@ -43,9 +43,6 @@
 }
 
 /* step6:subcolumn1 */
-.ExecutiveBox1 {
-    /* background-color: aliceblue; */
-}
 
 .ExecutiveBox1 p {
     font-size: 2rem;

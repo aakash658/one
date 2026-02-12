@@ -15,54 +15,146 @@
 } */
 
 /* Step2: component */
-.BookNow{
-    background:#101010;
+.BookNow {
+    background: #101010;
     padding: 5rem 6rem;
 }
 
 /* step3:component container */
-.BookNowContainer{
+.BookNowContainer {
     max-width: 1200px;
     margin: auto;
 }
+
 /* step4:row1 */
-.BookNowBody1{
+.BookNowBody1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 /* step5:column1 */
-.BookNowBlock1{
+.BookNowBlock1 {
     /* background-color: azure; */
 }
 
 /* step6:subcolumn1 */
-.BookNowBox1 p{
-font-size: 1.5rem;
-color: goldenrod;
-font-family: var(--ffsecondary);
+.BookNowBox1 p {
+    font-size: 1.5rem;
+    color: goldenrod;
+    font-family: var(--ffsecondary);
 }
 
-.BookNowBox1 h2{
+.BookNowBox1 h2 {
     font-size: 4rem;
     color: white;
     font-family: var(--ffprimary);
 }
 
-.BookNowBox1 h3{
+.BookNowBox1 h3 {
     font-size: 1.7rem;
     color: #ffffff99;
     font-family: var(--ffsecondary);
 }
 
-.BookNowBox1 h4{
+.BookNowBox1 h4 {
     font-size: 2rem;
     padding: 1rem;
     font-family: var(--ffsecondary);
     color: #ffffff99;
 }
-.BookNowBox1 h4 i{
+
+.BookNowBox1 h4 i {
     color: goldenrod;
     font-size: 2rem;
     border-radius: 10%;
 }
+
+/* step5:column2 */
+.BookNowBox2 {
+    /* background-color: rgb(78, 114, 147); */
+    width:80%;
+    height: 70%;
+    border: 2px solid black;
+    column-gap: 4rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: 2rem;
+    /* padding-bottom: 4rem; */
+}
+
+.BookNowBox2 h4 {
+    font-size: 1rem;
+    padding: 1rem;
+    font-family: var(--ffsecondary);
+    color: #ffffff99;
+}
+
+.one {
+padding:2rem;
+}
+
+.formGroupOne {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.ink h4 {
+    font-size: 1rem;
+    padding: 1rem;
+    font-family: var(--ffsecondary);
+    color: #ffffff99;
+}
+
+.formGroupTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.space h4 {
+    font-size: 1rem;
+    padding: 1rem;
+    font-family: var(--ffsecondary);
+    color: #ffffff99;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+/* background-color:#121212; */
+}
+.boost {
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.formGroupThree {
+  width: 100%;
+  /* padding-bottom: 3rem; */
+  line-height: 1;
+}
+
+input::placeholder {
+  font-family: inherit;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+}
+
+.code h4 {
+    font-size: 1rem;
+    padding: 1rem;
+    font-family: var(--ffsecondary);
+    color: #ffffff99;
+}
+
+.formGroupFour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 3rem; */
+}
+

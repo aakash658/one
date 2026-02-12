@@ -1,0 +1,129 @@
+/* ::::CSS Sequence (7 Steps):::: */
+/* Step1: parentContainer */
+/* Step2: component */
+/* Step3: componentContainer */
+/* Step4: row */
+/* Step5: column */
+/* Step6: subColumn */
+/* Step7: contentContainer */
+
+
+/* Step1: parentContainer */
+/* :::For Parent Container CSS Properties are given in the Default CSS file::: */
+/* header{
+    background-color: #649db1;
+} */
+
+/* Step2: component */
+.navDiv2Bar {
+    /* background-color: antiquewhite; */
+}
+
+/* step3:component Container */
+.navDiv2Container {
+    max-width: 1210px;
+    margin: auto;
+}
+
+/* step4:row1 */
+.navDiv2Body1 {
+    display: grid;
+    /* grid-template-columns: 2fr 8fr; */
+    padding: 2.5rem 0rem;
+}
+
+/* step5:column1 */
+.navDiv2Block1 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* background-color: aqua; */
+}
+
+.navDiv2Box1 p {
+    /* font-family: var(--ffprimary); */
+    font-size: 2.7rem;
+    color: white;
+    font-weight: 600;
+}
+
+/* step5:column2 */
+.navDiv2Block2 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+/* step6:subcolumn2 */
+.navDiv2Box2 ul {
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.navDiv2Box2 ul li {
+    /* background-color: aliceblue; */
+}
+
+.navDiv2Box2 ul li a {
+    color: #FFFFFFCC;
+    font-size: 1.7rem;
+    font-family: 'Avenir', sans-serif;
+    font-weight: 400;
+    margin-right: 3rem;
+}
+
+.navDiv2Box2 ul li a:hover {
+    color: #c69f53;
+}
+
+
+.navDiv2Block2 {
+    /* background-color: antiquewhite; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navDiv2Box2 {
+    /* padding: 4rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 4rem; */
+    column-gap: 2rem;
+}
+
+.navDiv2Box2 i {
+    color: #c69f53;
+    font-size: 2rem;
+}
+
+.navDiv2Box2 p {
+    font-family: 'Avenir', sans-serif;
+    color: #c69f53;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.navDiv2Box2 button {
+    background-color: #c69f53;
+    font-family: 'Avenir', sans-serif;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 500;
+    /* margin: 2rem; */
+    /* padding: 1rem; */
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+    padding: 1rem 2rem;
+    transition: background-color 0.2s ease;
+}
+
+
+span {
+    color: #c69f53;
+}
